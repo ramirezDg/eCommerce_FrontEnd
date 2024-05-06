@@ -32,7 +32,7 @@ const Header: React.FC = () => {
 
   // Renderizado del componente
   return (
-    <header className='bg-white text-white py-2 px-10'>
+    <header className='bg-white text-white py-2 px-10 fixed w-full z-50'>
       <div className='container mx-auto flex justify-around items-center'>
         <h1 className='text-xl font-bold text-zinc-800 select-none cursor-pointer'>
           {PAGE_NAME}
