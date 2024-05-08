@@ -32,7 +32,7 @@ const Header: React.FC = () => {
 
   // Renderizado del componente
   return (
-    <header className='bg-white text-white py-2 px-10 fixed w-full z-50'>
+    <header className='bg-white text-white py-2 px-10 fixed w-full z-50 '>
       <div className='container mx-auto flex justify-around items-center'>
         <h1 className='text-xl font-bold text-zinc-800 select-none cursor-pointer'>
           {PAGE_NAME}
@@ -61,24 +61,24 @@ const Header: React.FC = () => {
           </div>
         </div>
         <nav className='flex items-center gap-12 '>
-          <ul className='text-zinc-400 font-medium flex space-x-20'>
+          <ul className='text-zinc-400 font-medium text-lg flex space-x-20 font-Teachers'>
             <li>
-              <a href='/home' className='  p-2 rounded'>
+              <a href='/home' className='hover:text-zinc-800  p-2 rounded'>
                 Home
               </a>
             </li>
             <li>
-              <a href='/about' className=' p-2 rounded'>
+              <a href='/about' className='hover:text-zinc-800 p-2 rounded'>
                 About
               </a>
             </li>
             <li>
-              <a href='/contact' className=' p-2 rounded'>
+              <a href='/contact' className='hover:text-zinc-800 p-2 rounded'>
                 Contact Us
               </a>
             </li>
             <li>
-              <a href='/contact' className=' p-2 rounded'>
+              <a href='/contact' className='hover:text-zinc-800 p-2 rounded'>
                 Blog
               </a>
             </li>

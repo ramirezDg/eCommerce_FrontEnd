@@ -7,7 +7,7 @@ const Button = forwardRef<
   return (
     <button
       ref={ref}
-      className='px-10 py-3 border text-white rounded-lg'
+      className='px-10 py-3 border text-white rounded-lg transition-colors duration-200 hover:bg-zinc-800'
       {...rest}
     >
       {children}
